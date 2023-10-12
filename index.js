@@ -8,7 +8,7 @@ function jackpot() {
   console.log(random_number);
 
   for (let i = 9; i >= 0; i--) {
-    let num = prompt('請輸入一個隨機數字：');
+    let num = prompt('請從0~100中，輸入一個隨機數字：');
     if (num == random_number) {
       alert('中獎了！！！');
       return;
