@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+    // 小數點相加，造成精度的問題;先轉整數進行運算，再除回來
+    let box = (0.1 * 10 + 0.2 * 10) / 10
+    console.log(box);
+    //運算符
+    console.log(Number('妳好'));
+    console.log('caa' > 'acc');
+    console.log(1 > 2 && 3 < 4);
+    console.log(1 > 2 || 3 < 4);
+
+    //for
+    for (let i = 1; i <= 8; i++) {
+      for (let j = 8; j >= i; j--) {
+        document.write(`&nbsp`)
+      }
+      for (let k = 1; k <= i; k++) {
+        document.write(' *')
+      }
+
+      document.write(`<br>`)
+    }
+
+
+
+
+
+  </script>
+</body>
+
+</html>
